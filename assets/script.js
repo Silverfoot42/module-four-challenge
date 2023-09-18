@@ -60,7 +60,7 @@ function renderQuestion() {
         endQuiz()
     }
 }
-/*lines 59-71 were made with help from the ai learning assistant*/
+/*lines 63-77 were made with help from the ai learning assistant*/
 for (var i = 0; i < answerButtons.length; i++) {
     answerButtons[i].addEventListener("click", function(event) {
         var selectedAnswer = event.target.textContent;
